@@ -1,7 +1,6 @@
 body {
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    
+   
   }
   .topnav{
     background-color:black;
@@ -62,10 +61,11 @@ body {
   }
   h1{
     text-align: center;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 30px;
+    font-family:  'Anek Latin', sans-serif;
+    font-size: 40px;
     padding-bottom: 1%;
     margin-top: 17%;
+
   }
   img.p:hover,img.p:focus{
     transform: scale(1.2);
@@ -81,16 +81,16 @@ body {
   }
   h2{
     text-align: center;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 15px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
     color: rgb(255, 255, 255);
   }
 
   h1.a1{
     padding-top: 80px;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Anek Latin', sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 38px;
     
   }
 a.view{
@@ -120,6 +120,7 @@ div.view-button{
 
 p{
     font-size: 21px;
+    font-family: 'Lucida Sans';
 }
 
 .about{
@@ -187,9 +188,6 @@ p{
   margin-top: 10px;
 }
 
-h1 {
-  text-align: center;
-}
 
 .container-2 {
   width: 635px;
@@ -302,7 +300,7 @@ border-color: #759083;
 
 }
 .contact-column h1{
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Anek Latin', sans-serif;
   font-size: 25px;
   line-height: 1.8;
   font-weight: normal;
@@ -311,7 +309,7 @@ border-color: #759083;
   text-align: left;
 }
 .contact-column p{
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Anek Latin', sans-serif;
     font-size: 17px;
     line-height: 1.8;
     font-weight: normal;
@@ -361,6 +359,9 @@ border-color: #759083;
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.text{
+  font-family: 'Anek Latin', sans-serif;
+}
 
 .container-comingsoon:hover .image {
   opacity: 0.3;
@@ -375,7 +376,7 @@ border-color: #759083;
   color: white;
   font-size: 40px;
   padding: 16px 32px;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Anek Latin', sans-serif;
 }
 .about h1{
   text-align: left;
@@ -386,6 +387,7 @@ border-color: #759083;
   background-size: cover;
   height: -webkit-fill-available;
 }
+/** _________________media_________________________**/
 @media (max-width: 700px) {
   .li, .topnav{
     background-color:black;
@@ -398,6 +400,12 @@ border-color: #759083;
     height: auto;
     width: 100%;
     object-fit: cover;
+  }
+  h1{
+    font-size: 35px;
+  }
+  h1.a1{
+    font-size: 29px;
   }
   .container-comingsoon{
        width: 100%;
@@ -482,12 +490,13 @@ border-color: #759083;
     
   }
   .about p{
-    width: 373px;
-    height: 362px;
-    padding: 5% 5% 5% 15%;
+    width: 390px;
+    height: 428px;
+    padding: 5% 15% 5% 15%;
     font-size: 17px;
     margin-top: 0%;
     color: white;
+    background: black;
     text-align: center;
   }
   .container{
