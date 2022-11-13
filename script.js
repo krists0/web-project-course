@@ -9,15 +9,53 @@ console.log("imgaes.className="+imgClass);
 let pictures = [];
 if(imgClass=="earrings"){
      pictures = [
- 'https://i.ibb.co/0K8yvyp/silver-r2.jpg',
-'https://i.ibb.co/CK23GtZ/Whats-App-Image-2022-10-05-at-00-14-23-1.jpg'
+ 'https://i.ibb.co/DGs4HCW/ear-1.jpg',
+'https://i.ibb.co/vXhD1RR/ear-2.jpg',
+'https://i.ibb.co/0sJ7NGb/ear-4.jpg',
+''
 ];
 }
+else if(imgClass=="ring-1"){
+    pictures = [
+        'https://i.ibb.co/Bn7VHSP/s-ring-1.jpg',
+        'https://i.ibb.co/7pFRGS6/s-ring-3.jpg',
+        'https://i.ibb.co/6NpRBTp/s-ring-4.jpg',
+        'https://i.ibb.co/CP4Yrj1/s-ring-6.jpg'
+      
+       ];
+}
+else if(imgClass=="ring-2"){
+    pictures = [
+        'https://i.ibb.co/YPhwQ6k/g-ring-2.jpg',
+       'https://i.ibb.co/DftvM9x/g-ring-1.jpg',
+       'https://i.ibb.co/g9pzvPC/g-ring-3.jpg',
+       'https://i.ibb.co/NmNtBZM/g-ring-4.jpg'
+       ];
+}
+else if(imgClass=="ring-3"){
+    pictures = [
+        'https://i.ibb.co/6rMysvV/silver-r2.jpg',
+       'https://i.ibb.co/HdQzwG7/silver-ring3.jpg'
+       ];
+}
+else if(imgClass=="ring-4"){
+    pictures = [
+        'https://i.ibb.co/f0tbh0h/p-s-1.jpg',
+       'https://i.ibb.co/TLM8CQW/p-s-2.jpg',
+       'https://i.ibb.co/M50n9pD/p-s-3.jpg',
+       'https://i.ibb.co/YkkJZxD/p-s-4.jpg'
+       ];
+}
+else if(imgClass=="ring-pre2"){
+    pictures = [
+        'https://i.ibb.co/wrJpbsh/p-g-1.jpg',
+       'https://i.ibb.co/9qy4WW0/p-g-2.jpg',
+       'https://i.ibb.co/P9tz1gh/p-g-3.jpg',
+       'https://i.ibb.co/997Kvx1/p-g-4.jpg'
+       ];
+}
 else{
-    pictures = ['https://images.unsplash.com/photo-1537000092872-06bbf7b64f60?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=14d2fe1244b43a1841569da918066fc4&auto=format&fit=crop&w=1050&q=80',
- 'https://i.ibb.co/0K8yvyp/silver-r2.jpg',
-  'https://i.ibb.co/8KscsVr/silver-ring3.jpg',
-'https://i.ibb.co/CK23GtZ/Whats-App-Image-2022-10-05-at-00-14-23-1.jpg'
+    pictures = [
 ];
 }
 
