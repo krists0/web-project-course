@@ -1,6 +1,7 @@
 
 console.log("script");
 const img = document.getElementById('carousel');
+
 const imgClass=document.getElementById('carousel').className;
 const rightBtn = document.getElementById('right-btn');
 const leftBtn = document.getElementById('left-btn');
@@ -14,6 +15,8 @@ if(imgClass=="earrings"){
     'https://i.ibb.co/0sJ7NGb/ear-4.jpg',
     
 ];
+document.getElementById("carousel").style.height = "122%";
+
 }
 else if(imgClass=="ring-1"){
     pictures = [

@@ -522,7 +522,8 @@ border-color: #759083;
 
   /**______________**/
   .mySlides {display: none;}
-img {vertical-align: middle;
+img, .info {vertical-align: middle;
+  max-height: 650px;
 
 }
 img#carousel{
