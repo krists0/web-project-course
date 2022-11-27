@@ -9,10 +9,10 @@ console.log("imgaes.className="+imgClass);
 let pictures = [];
 if(imgClass=="earrings"){
      pictures = [
- 'https://i.ibb.co/DGs4HCW/ear-1.jpg',
-'https://i.ibb.co/vXhD1RR/ear-2.jpg',
-'https://i.ibb.co/0sJ7NGb/ear-4.jpg',
-''
+    'https://i.ibb.co/DGs4HCW/ear-1.jpg',
+    'https://i.ibb.co/vXhD1RR/ear-2.jpg',
+    'https://i.ibb.co/0sJ7NGb/ear-4.jpg',
+    
 ];
 }
 else if(imgClass=="ring-1"){
@@ -20,7 +20,7 @@ else if(imgClass=="ring-1"){
         'https://i.ibb.co/Bn7VHSP/s-ring-1.jpg',
         'https://i.ibb.co/7pFRGS6/s-ring-3.jpg',
         'https://i.ibb.co/6NpRBTp/s-ring-4.jpg',
-        'https://i.ibb.co/CP4Yrj1/s-ring-6.jpg'
+        
       
        ];
 }
@@ -48,10 +48,10 @@ else if(imgClass=="ring-4"){
 }
 else if(imgClass=="ring-pre2"){
     pictures = [
-        'https://i.ibb.co/wrJpbsh/p-g-1.jpg',
-       'https://i.ibb.co/9qy4WW0/p-g-2.jpg',
-       'https://i.ibb.co/P9tz1gh/p-g-3.jpg',
-       'https://i.ibb.co/997Kvx1/p-g-4.jpg'
+        'https://i.ibb.co/mGjzGQt/p-g-3.jpg',
+       'https://i.ibb.co/HBLVqLw/p-g-1.jpg',
+       'https://i.ibb.co/6tNPJSK/p-g-2.jpg',
+       'https://i.ibb.co/b6LvB71/p-g-4.jpg'
        ];
 }
 else{
@@ -82,9 +82,6 @@ const moveLeft = () => {
     img.src = pictures[position - 1];
     position--;
 }
-function setupImages(){
-   
 
-}
 rightBtn.addEventListener("click", moveRight);
 leftBtn.addEventListener("click", moveLeft);

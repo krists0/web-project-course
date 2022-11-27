@@ -315,6 +315,7 @@ border-color: #759083;
     font-weight: normal;
     color: #666666;
 }
+
 .column span{
   font-size: 50px;
   text-align: center;
@@ -521,8 +522,13 @@ border-color: #759083;
 
   /**______________**/
   .mySlides {display: none;}
-img {vertical-align: middle;}
+img {vertical-align: middle;
 
+}
+img#carousel{
+  width: auto;
+  height: 51%;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 900px;
