@@ -2,6 +2,7 @@
 website for jewelry designer 
 
 
-![alt text](https://ibb.co/372DSSf)
+![alt text](https://i.ibb.co/qdKtmm0/contact.png)
 
-![alt text](https://ibb.co/gw8R85c)
+![alt text](https://i.ibb.co/tc6J671/oo.png)
+
